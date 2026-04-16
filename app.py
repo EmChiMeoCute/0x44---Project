@@ -22,7 +22,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 # =========================
 COOKIE_FILE = "/tmp/cookies.txt"
 
-cookie_text = os.getenv("youtube_cookies")
+cookie_text = os.getenv("YT_CK")
 
 if cookie_text:
     with open(COOKIE_FILE, "w", encoding="utf-8") as f:
