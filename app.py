@@ -3,6 +3,8 @@ import re
 import json
 import threading
 import subprocess
+import static_ffmpeg
+static_ffmpeg.add_paths()
 from flask import Flask, render_template, request, jsonify, send_from_directory
 
 app = Flask(__name__)
