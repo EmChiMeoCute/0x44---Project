@@ -1,4 +1,4 @@
 flask>=3.0.0
-yt-dlp
 gunicorn
+yt-dlp>=2026.03.17
 static-ffmpeg
